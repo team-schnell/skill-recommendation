@@ -11,10 +11,10 @@ st.header('Job Recommender System Using Machine Learning')
 model = pickle.load(open('artifacts/skill_match_model.pkl', 'rb'))
 job_ids = pickle.load(open('artifacts/job_ids.pkl', 'rb'))
 skill_matches = pickle.load(open('artifacts/skill_matches.pkl', 'rb'))
-jobs = pd.read_csv('/Users/amalmr/Desktop/Freelancing AI/archive/jobs_rows.csv')
+jobs = pd.read_csv('archive/jobs_rows.csv')
 
 # Load users data
-users = pd.read_csv('/Users/amalmr/Desktop/Freelancing AI/archive/user_large.csv')  # Adjust the path if needed
+users = pd.read_csv('archive/user_large.csv')  # Adjust the path if needed
 
 # Streamlit user interface
 st.write("Job recommendations will be displayed automatically based on the predefined user profile.")

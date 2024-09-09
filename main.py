@@ -5,8 +5,8 @@ from sklearn.neighbors import NearestNeighbors
 import pickle
 
 # Load job and user CSV files (use the correct paths to your files)
-jobs = pd.read_csv('/Users/amalmr/Desktop/Freelancing AI/archive/jobs_rows.csv')
-users = pd.read_csv('/Users/amalmr/Desktop/Freelancing AI/archive/user_large.csv')
+jobs = pd.read_csv('/Users/amalmr/Desktop/Freelancing AI 2/archive/jobs_rows.csv')
+users = pd.read_csv('/Users/amalmr/Desktop/Freelancing AI 2/archive/user_large.csv')
 
 # Check the structure of the data and print column names to inspect
 print("Jobs columns:", jobs.columns)  # To check what the column names are
